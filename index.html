@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+               background-image: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg");
+                background-size:cover;
+                margin: 100px;
+                min-width: 100px;
+    
+            }
+            h1{
+                font-size: 60px;
+                font-family:cursive;
+                text-align: center;
+            }
+            form{
+                text-align: center;
+                font-family: cursive;
+            }
+            p{
+                text-align: center;
+                font-family: cursive;
+            
+            }
+             button{
+                font-family: cursive; 
+            }
+            
+        </style>
+    </head>
+        <body>
+            <div class="container">
+                <h1>Today's weather</h1>
+                <p>Enter your zipcode to view the weather.</p>
+                <form>
+                    <label for="number"><br>Zipcode:</label>
+                    <input type="text" id="zip">
+                    <button type ="button" id="1">Click</button><br><br><br>
+                    <label for="result"></label>
+                    <ol id=weatherid1></ol>
+                    <ol id=weatherid2></ol>
+                    <ol id=weatherid3></ol>
+                
+                </form>
+            </div>
+            
+
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js" ></script>
+            <script type="text/javascript" src="index.js"></script>
+        </body>
+</html>
+
+
+
