@@ -3,7 +3,7 @@
     <head>
         <style>
             body{
-               background-image: url("https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg");
+               background-image: url("https://i.ytimg.com/vi/LQ-5rNgaqYs/maxresdefault.jpg");
                 background-size:cover;
                 margin: 100px;
                 min-width: 100px;
@@ -13,32 +13,48 @@
                 font-size: 60px;
                 font-family:cursive;
                 text-align: center;
+                color:gold;
             }
             form{
                 text-align: center;
                 font-family: cursive;
+                color:purple;
             }
             p{
                 text-align: center;
                 font-family: cursive;
+                color:purple;
             
             }
              button{
-                font-family: cursive; 
+                font-family: cursive;
+                color: purple;
+
+            }
+            #icon{
+               width: 100px; 
             }
             
+            #weatherid2{
+                font-size: 30px;
+            }
         </style>
     </head>
         <body>
             <div class="container">
                 <h1>Today's weather</h1>
+                <br>
+                <br>
+                <br>
+                <br>
                 <p>Enter your zipcode to view the weather.</p>
                 <form>
                     <label for="number"><br>Zipcode:</label>
                     <input type="text" id="zip">
-                    <button type ="button" id="1">Click</button><br><br><br>
+                    <button type ="button" id="1" class="btnWeather">Get weather</button><br>
                     <label for="result"></label>
-                    <ol id=weatherid1></ol>
+                    <ol id=weatherid1 ></ol>
+                    <img id= icon>
                     <ol id=weatherid2></ol>
                     <ol id=weatherid3></ol>
                     <ol id=weatherid4></ol>
